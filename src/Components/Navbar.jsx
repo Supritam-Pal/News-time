@@ -12,13 +12,13 @@ const Navbar = ({setCategory}) => {
     <div className="collapse navbar-collapse" id="navbarNavDropdown">
       <ul className="navbar-nav">
        
-        <li className="nav-item" onClick={{color:'red'}}>
+        {/* <li className="nav-item" onClick={{color:'red'}}>
           <div className="nav-link" onClick={()=>setCategory("technology")}>Technology</div>
         </li>
 
         <li className="nav-item">
           <div className="nav-link" onClick={()=>setCategory("buisness")}>Buisness</div>
-        </li>
+        </li> */}
 
         <li className="nav-item">
           <div className="nav-link" onClick={()=>setCategory("health")}>Health</div>
